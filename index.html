@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Brand Name | Premium Spices</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf8f3;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1596040033229-a9821ebd058d');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+nav {
+  background: #8b3e2f;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 15px 0 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  background: #e67e22;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.coming-soon {
+  border: 2px dashed #e67e22;
+  background: #fffaf4;
+}
+
+footer {
+  background: #2f1b12;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Your Brand Name</h1>
+  <p>Authentic • Fresh • Premium Quality Spices</p>
+</header>
+
+<nav>
+  <a href="#current">Current Products</a>
+  <a href="#future">Coming Soon</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="current">
+  <h2>🌿 Our Current Products</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5" alt="Turmeric">
+      <h3>Organic Turmeric Powder</h3>
+      <p>100% pure sun-dried turmeric. No additives.</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d" alt="Chili Powder">
+      <h3>Red Chili Powder</h3>
+      <p>Rich color, strong aroma, perfect heat level.</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1589927986089-35812388d1f4" alt="Cumin">
+      <h3>Whole Cumin Seeds</h3>
+      <p>Freshly sourced, bold earthy flavor.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="future">
+  <h2>🔥 Upcoming Products</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card coming-soon">
+      <span class="badge">Coming Soon</span>
+      <img src="https://images.unsplash.com/photo-1606788075761-51e1fef2d8c3" alt="Garam Masala">
+      <h3>Special Garam Masala Blend</h3>
+      <p>Signature house blend crafted from 12 spices.</p>
+    </div>
+
+    <div class="product-card coming-soon">
+      <span class="badge">Launching 2026</span>
+      <img src="https://images.unsplash.com/photo-1510627498534-cf7e9002facc" alt="Smoked Paprika">
+      <h3>Smoked Paprika</h3>
+      <p>Slow-smoked peppers with deep flavor.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>📞 Contact Us</h2>
+  <p style="text-align:center;">
+    Email: your@email.com <br>
+    Phone: +91 1234567890 <br>
+    Location: Your City, Country
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Your Brand Name | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
